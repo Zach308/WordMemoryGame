@@ -6,11 +6,11 @@ class WordMatchM {
 	public static Random rd = new Random(); 
 	public static Scanner sc = new Scanner(System.in); 
   public static void main(String[] args){
-	  
-		String[][] board ={{"Zach","Zach","Miles","Grace"},
-                            {"Miles","Logan","Logan","Grace"},
-                            {"Jake","Jake","Sydney","Trenton"},
-                            {"Sydney","Dylan","Dylan","Trenton"}};
+	  	// change the "Name" strings in the 2d array to desired names 
+		String[][] board ={{"Name","Name","Name","Name"},
+                            {"Name","Name","Name","Name"},
+                            {"Name","Name","Name","Name"},
+                            {"Name","Name","Name","Name"}};
 		String[][] newBoard = new String[board.length][board[0].length]; 
 		randBoard(board);
 		hideBoard(newBoard);
